@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "d2-data-parser"
+version = "0.1.0"
+description = ""
+authors = ["absence <absencelul@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+d2-data-parser = "d2_data_parser.main:cli"
