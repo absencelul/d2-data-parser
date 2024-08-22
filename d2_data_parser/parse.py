@@ -53,7 +53,7 @@ def parse_file_content(content: str) -> List[Dict[str, Any]]:
             for line in data_lines
             if line.strip()
         ]
-        if parsed_dict.get("name") != "expansion"
+        if parsed_dict.get("name") != "Expansion"
     ]
     return parsed_data
 
